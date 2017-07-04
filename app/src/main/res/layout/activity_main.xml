@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#fff"
+    android:background="@drawable/ntitled4"
+android:alpha=".75"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="180dp"
-        android:layout_centerHorizontal="true"
-        android:background="@mipmap/ic_launcher"/>
 
-   <android.support.v7.widget.CardView
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ntitled2"
+        android:alpha="100"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ntitled1"
+        android:alpha="225"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ntitled3"/>
+
+
+    <android.support.v7.widget.CardView
        android:layout_width="match_parent"
        android:id="@+id/cardView"
+
        android:layout_margin="36sp"
 
        app:cardCornerRadius="3dp"
@@ -25,12 +45,14 @@
 
        <RelativeLayout
            android:layout_width="match_parent"
-           android:background="#C0C0C0"
+           android:background="#ff0000"
            android:layout_height="match_parent">
            <EditText
                android:layout_width="235dp"
                android:hint="UserName "
                android:padding="15dp"
+               android:inputType="text"
+               android:maxLines="1"
                android:id="@+id/username"
                android:background="@drawable/border"
                android:layout_marginTop="35dp"
@@ -41,6 +63,7 @@
                app:passwordToggleEnabled="true"
                android:layout_width="235dp"
                android:layout_height="59dp"
+               android:alpha="225"
                android:layout_marginTop="95dp"
                android:id="@+id/password"
                android:layout_centerHorizontal="true"
@@ -51,6 +74,7 @@
                android:layout_width="235dp"
                android:inputType="textPassword"
                android:hint="Password "
+               android:maxLines="1"
 
                android:padding="15dp"
                android:layout_below="@+id/username"
@@ -65,7 +89,7 @@
                android:id="@+id/button2"
                android:layout_width="140dp"
                android:layout_height="wrap_content"
-               android:background="#A0A0A0"
+               android:background="#0057e7"
                android:text="sign up"
                android:textColor="#fff"
                android:onClick="Action"
@@ -100,7 +124,7 @@
            android:layout_alignParentStart="true"
            android:layout_alignParentTop="true"
            android:layout_marginTop="200dp"
-           android:background="#A0A0A0"
+           android:background="#0057e7"
            android:text="Login"
            android:textColor="#fff" />
 
