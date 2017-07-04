@@ -45,7 +45,6 @@ android:alpha=".75"
 
        <RelativeLayout
            android:layout_width="match_parent"
-           android:background="#ff0000"
            android:layout_height="match_parent">
            <EditText
                android:layout_width="235dp"
