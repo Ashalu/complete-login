@@ -45,13 +45,17 @@ android:alpha=".75"
 
        <RelativeLayout
            android:layout_width="match_parent"
-           android:layout_height="match_parent">
+           android:layout_height="match_parent"
+
+        >
            <EditText
                android:layout_width="235dp"
                android:hint="UserName "
                android:padding="15dp"
                android:inputType="text"
+
                android:maxLines="1"
+               android:alpha="500"
                android:id="@+id/username"
                android:background="@drawable/border"
                android:layout_marginTop="35dp"
@@ -63,6 +67,7 @@ android:alpha=".75"
                android:layout_width="235dp"
                android:layout_height="59dp"
                android:alpha="225"
+
                android:layout_marginTop="95dp"
                android:id="@+id/password"
                android:layout_centerHorizontal="true"
@@ -74,7 +79,7 @@ android:alpha=".75"
                android:inputType="textPassword"
                android:hint="Password "
                android:maxLines="1"
-
+               android:alpha="255"
                android:padding="15dp"
                android:layout_below="@+id/username"
 
@@ -90,6 +95,7 @@ android:alpha=".75"
                android:layout_height="wrap_content"
                android:background="#0057e7"
                android:text="sign up"
+               android:alpha="500"
                android:textColor="#fff"
                android:onClick="Action"
                android:layout_alignParentBottom="true"
@@ -103,7 +109,7 @@ android:alpha=".75"
                android:id="@+id/forgetTextView"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-
+               android:alpha="500"
                android:textSize="18sp"
                android:layout_alignEnd="@+id/button2"
                android:layout_alignParentBottom="true"
